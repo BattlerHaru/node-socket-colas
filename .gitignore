@@ -1,7 +1,10 @@
-# Dependencias / Módulos
+# Node.js
 node_modules/
 
-# Archivo de variables de entorno
+# Configuración de entorno
 .env
+!.env.template
 
-!env.template
+# Archivos de respaldo de VSCode
+.vscode/
+*.code-workspace
