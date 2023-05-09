@@ -1,0 +1,7 @@
+# Dependencias / Módulos
+node_modules/
+
+# Archivo de variables de entorno
+.env
+
+!env.template
