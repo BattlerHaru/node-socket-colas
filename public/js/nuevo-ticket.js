@@ -5,12 +5,10 @@ const btnCrear = document.querySelector("button");
 const socket = io();
 
 socket.on("connect", () => {
-  // console.log('Conectado');
   btnCrear.disable = false;
 });
 
 socket.on("disconnect", () => {
-  // console.log('Desconectado del servidor');
   btnCrear.disable = true;
 });
 
